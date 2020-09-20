@@ -1,16 +1,16 @@
 @use '../_foundation/mixin' as mixin;
 
 .header {
-  background: #e46a38;
   color: #333;
+  background: #e46a38;
 
   &__inner {
     @include mixin.sectionWidth();
 
-    padding: 24px 0;
-    font-size: 1.6rem;
     display: flex;
     justify-content: space-between;
+    padding: 24px 0;
+    font-size: 1.6rem;
 
     @include mixin.mq(tablet) {
       padding: mixin.get_vw(24, 1280);

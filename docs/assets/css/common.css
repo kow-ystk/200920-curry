@@ -138,17 +138,17 @@ ul {
 }
 
 .header {
-  background: #e46a38;
   color: #333;
+  background: #e46a38;
 }
 .header__inner {
   width: 80%;
   max-width: 960px;
   margin: 0 auto;
-  padding: 24px 0;
-  font-size: 1.6rem;
   display: flex;
   justify-content: space-between;
+  padding: 24px 0;
+  font-size: 1.6rem;
 }
 @media screen and (max-width: 767px) {
   .header__inner {
@@ -202,17 +202,17 @@ ul {
 }
 
 .footer {
-  background: #e46a38;
   color: #333;
+  background: #e46a38;
 }
 .footer__inner {
   width: 80%;
   max-width: 960px;
   margin: 0 auto;
-  padding: 24px 0;
-  font-size: 1.6rem;
   display: flex;
   justify-content: space-between;
+  padding: 24px 0;
+  font-size: 1.6rem;
 }
 @media screen and (max-width: 767px) {
   .footer__inner {
@@ -273,13 +273,13 @@ ul {
   width: 80%;
   max-width: 960px;
   margin: 0 auto;
-  background-image: url(/assets/images/curry_4991.jpg);
-  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 960px;
   height: 720px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-image: url(/assets/images/curry_4991.jpg);
+  background-size: cover;
 }
 @media screen and (max-width: 767px) {
   .mv__inner {
