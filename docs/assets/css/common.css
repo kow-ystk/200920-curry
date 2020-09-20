@@ -163,6 +163,7 @@ ul {
 }
 @media screen and (max-width: 767px) {
   .header__inner {
+    display: block;
     padding: 6.4vw 0;
     font-size: 4.2666666667vw;
   }
@@ -180,6 +181,7 @@ ul {
 @media screen and (max-width: 767px) {
   .headerLogo {
     font-size: 8.5333333333vw;
+    text-align: center;
   }
 }
 
@@ -196,7 +198,7 @@ ul {
 }
 @media screen and (max-width: 767px) {
   .headerMenu__list {
-    display: block;
+    display: none;
     width: 53.3333333333vw;
   }
 }
@@ -227,6 +229,7 @@ ul {
 }
 @media screen and (max-width: 767px) {
   .footer__inner {
+    display: block;
     padding: 6.4vw 0;
     font-size: 4.2666666667vw;
   }
@@ -244,6 +247,7 @@ ul {
 @media screen and (max-width: 767px) {
   .footerLogo {
     font-size: 8.5333333333vw;
+    text-align: center;
   }
 }
 
@@ -260,7 +264,7 @@ ul {
 }
 @media screen and (max-width: 767px) {
   .footerMenu__list {
-    display: block;
+    display: none;
     width: 53.3333333333vw;
   }
 }
@@ -501,6 +505,84 @@ ul {
     margin-top: 2.1333333333vw;
     font-size: 2.1333333333vw;
     background-color: #faa58e;
+  }
+}
+
+.dish {
+  background-color: #fcdc4d;
+}
+.dish__inner {
+  width: 80%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 24px;
+}
+@media screen and (max-width: 767px) {
+  .dish__inner {
+    width: 91.4666666667vw;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .dish__inner {
+    padding: 1.875vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .dish__inner {
+    padding: 3.2vw;
+  }
+}
+
+.dishTitle {
+  font-size: 3.2rem;
+  color: #333;
+}
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .dishTitle {
+    font-size: 2.5vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .dishTitle {
+    font-size: 4.2666666667vw;
+    text-align: center;
+  }
+}
+
+.dishContents {
+  width: 50%;
+  padding: 24px 0;
+  margin: 0 auto;
+}
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .dishContents {
+    padding: 1.875vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .dishContents {
+    width: 100%;
+    padding: 3.2vw;
+  }
+}
+.dishContents__image {
+  width: 100%;
+}
+.dishContents__txtWrapper {
+  padding: 16px;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .dishContents__txtWrapper {
+    padding: 1.25vw;
+    font-size: 1.25vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .dishContents__txtWrapper {
+    padding: 2.1333333333vw;
+    font-size: 2.1333333333vw;
   }
 }
 
