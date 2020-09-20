@@ -278,7 +278,7 @@ ul {
   justify-content: center;
   width: 960px;
   height: 720px;
-  background-image: url(/assets/images/curry_4991.jpg);
+  background-image: url("https://kow-ystk.github.io/200920-curry/assets/images/curry_4991.jpg");
   background-size: cover;
 }
 @media screen and (max-width: 767px) {
