@@ -163,6 +163,7 @@ ul {
 }
 @media screen and (max-width: 767px) {
   .header__inner {
+    display: block;
     padding: 6.4vw 0;
     font-size: 4.2666666667vw;
   }
@@ -180,6 +181,7 @@ ul {
 @media screen and (max-width: 767px) {
   .headerLogo {
     font-size: 8.5333333333vw;
+    text-align: center;
   }
 }
 
@@ -196,7 +198,7 @@ ul {
 }
 @media screen and (max-width: 767px) {
   .headerMenu__list {
-    display: block;
+    display: none;
     width: 53.3333333333vw;
   }
 }
@@ -227,6 +229,7 @@ ul {
 }
 @media screen and (max-width: 767px) {
   .footer__inner {
+    display: block;
     padding: 6.4vw 0;
     font-size: 4.2666666667vw;
   }
@@ -244,6 +247,7 @@ ul {
 @media screen and (max-width: 767px) {
   .footerLogo {
     font-size: 8.5333333333vw;
+    text-align: center;
   }
 }
 
@@ -260,7 +264,7 @@ ul {
 }
 @media screen and (max-width: 767px) {
   .footerMenu__list {
-    display: block;
+    display: none;
     width: 53.3333333333vw;
   }
 }
