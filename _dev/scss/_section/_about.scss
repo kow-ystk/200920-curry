@@ -48,5 +48,6 @@
 
   @include mixin.mq() {
     font-size: mixin.get_vw(16);
+    text-align: center;
   }
 }
