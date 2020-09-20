@@ -372,6 +372,7 @@ ul {
 @media screen and (max-width: 767px) {
   .aboutTitle {
     font-size: 4.2666666667vw;
+    text-align: center;
   }
 }
 
@@ -412,6 +413,7 @@ ul {
 @media screen and (max-width: 767px) {
   .cookTitle {
     font-size: 4.2666666667vw;
+    text-align: center;
   }
 }
 
@@ -433,9 +435,15 @@ ul {
   justify-content: space-between;
   padding: 24px;
 }
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .cookContents__cassete {
+    padding: 1.875vw;
+  }
+}
 @media screen and (max-width: 767px) {
   .cookContents__cassete {
     display: block;
+    padding: 3.2vw;
   }
 }
 .cookContents__cassete:nth-child(2n) {
@@ -470,23 +478,29 @@ ul {
   .cookContents__title {
     margin-top: 3.2vw;
     font-size: 3.2vw;
+    text-align: center;
   }
 }
 .cookContents__txt {
+  padding: 12px;
   margin-top: 16px;
   font-size: 1.6rem;
+  line-height: 1.5;
   color: #333;
 }
 @media screen and (min-width: 768px) and (max-width: 1280px) {
   .cookContents__txt {
+    padding: 0.9375vw;
     margin-top: 1.25vw;
     font-size: 1.25vw;
   }
 }
 @media screen and (max-width: 767px) {
   .cookContents__txt {
+    padding: 2.1333333333vw;
     margin-top: 2.1333333333vw;
     font-size: 2.1333333333vw;
+    background-color: #faa58e;
   }
 }
 

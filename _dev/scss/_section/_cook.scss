@@ -28,6 +28,7 @@
 
   @include mixin.mq() {
     font-size: mixin.get_vw(16);
+    text-align: center;
   }
 }
 
@@ -47,8 +48,13 @@
     justify-content: space-between;
     padding: 24px;
 
+    @include mixin.mq(tablet) {
+      padding: mixin.get_vw(24, 1280);
+    }
+
     @include mixin.mq() {
       display: block;
+      padding: mixin.get_vw(12);
     }
 
     &:nth-child(2n) {
@@ -84,22 +90,28 @@
     @include mixin.mq() {
       margin-top: mixin.get_vw(12);
       font-size: mixin.get_vw(12);
+      text-align: center;
     }
   }
 
   &__txt {
+    padding: 12px;
     margin-top: 16px;
     font-size: 1.6rem;
+    line-height: 1.5;
     color: #333;
 
     @include mixin.mq(tablet) {
+      padding: mixin.get_vw(12, 1280);
       margin-top: mixin.get_vw(16, 1280);
       font-size: mixin.get_vw(16, 1280);
     }
 
     @include mixin.mq() {
+      padding: mixin.get_vw(8);
       margin-top: mixin.get_vw(8);
       font-size: mixin.get_vw(8);
+      background-color: #faa58e;
     }
   }
 }
