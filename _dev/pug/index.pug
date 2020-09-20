@@ -3,16 +3,16 @@ html(lang='ja')
   head
     block variable
       -
-        $title = 'タイトル'
+        $title = 'カレー作り'
         $meta = {
-          'description':'説明文',
+          'description':'カレー作り',
           'keywords':'',
           'og': {
-            'title':'ogpタイトル',
-            'description':'ogp説明文',
+            'title':'カレー作り',
+            'description':'カレー作り',
             'url':'',
             'image':'',
-            'site_name':'サイト名'
+            'site_name':'カレー作り'
           }
         }
 
@@ -25,6 +25,6 @@ html(lang='ja')
         include _section/_mv.pug
 
     block footer
-    include _modules/_footer.pug
+      include _modules/_footer.pug
 
     include _modules/_script.pug
