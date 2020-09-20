@@ -4,13 +4,13 @@
   &__inner {
     @include mixin.sectionWidth();
 
-    background-image: url(/assets/images/curry_4991.jpg);
-    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 960px;
     height: 720px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-image: url(/assets/images/curry_4991.jpg);
+    background-size: cover;
 
     @include mixin.mq(tablet) {
       width: mixin.get_vw(960, 1280);
