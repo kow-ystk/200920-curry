@@ -111,6 +111,7 @@ html {
 
 body {
   overflow-x: hidden;
+  overscroll-behavior-y: none;
   font-family: YuGothic, "Yu Gothic Medium", "Yu Gothic", sans-serif;
   color: #333;
   background: #fff;
@@ -136,62 +137,180 @@ ul {
   list-style: none;
 }
 
+.header {
+  background: #e46a38;
+  color: #333;
+}
+.header__inner {
+  width: 80%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 24px 0;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 767px) {
+  .header__inner {
+    width: 91.4666666667vw;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .header__inner {
+    padding: 1.875vw;
+    font-size: 1.25vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .header__inner {
+    padding: 6.4vw 0;
+    font-size: 4.2666666667vw;
+  }
+}
+
+.headerLogo {
+  font-size: 3.2rem;
+  font-weight: bold;
+}
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .headerLogo {
+    font-size: 2.5vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .headerLogo {
+    font-size: 8.5333333333vw;
+  }
+}
+
+.headerMenu__list {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  font-weight: bold;
+}
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .headerMenu__list {
+    width: 31.25vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .headerMenu__list {
+    display: block;
+    width: 53.3333333333vw;
+  }
+}
+
+.footer {
+  background: #e46a38;
+  color: #333;
+}
 .footer__inner {
   width: 80%;
-  max-width: 1080px;
+  max-width: 960px;
   margin: 0 auto;
-  position: relative;
-  padding: 25px 0 23px;
-  font-size: 12px;
+  padding: 24px 0;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: space-between;
 }
 @media screen and (max-width: 767px) {
   .footer__inner {
     width: 91.4666666667vw;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 768px) and (max-width: 1280px) {
   .footer__inner {
-    padding: 3.4666666667vw 0 4vw;
-    font-size: 3.2vw;
+    padding: 1.875vw;
+    font-size: 1.25vw;
   }
 }
-.footer__logo {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+@media screen and (max-width: 767px) {
+  .footer__inner {
+    padding: 6.4vw 0;
+    font-size: 4.2666666667vw;
+  }
+}
+
+.footerLogo {
+  font-size: 3.2rem;
+  font-weight: bold;
+}
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .footerLogo {
+    font-size: 2.5vw;
+  }
 }
 @media screen and (max-width: 767px) {
-  .footer__logo {
-    position: initial;
-    margin-top: 2.6666666667vw;
-    text-align: center;
-    transform: none;
+  .footerLogo {
+    font-size: 8.5333333333vw;
+  }
+}
+
+.footerMenu__list {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  font-weight: bold;
+}
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .footerMenu__list {
+    width: 31.25vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .footerMenu__list {
+    display: block;
+    width: 53.3333333333vw;
   }
 }
 
 .main__inner {
-  padding-bottom: 56px;
-  background-color: #ff9;
+  background-color: #fdbf0f;
+}
+
+.mv__inner {
+  width: 80%;
+  max-width: 960px;
+  margin: 0 auto;
+  background-image: url(/assets/images/curry_4991.jpg);
+  background-size: cover;
+  width: 960px;
+  height: 720px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 @media screen and (max-width: 767px) {
-  .main__inner {
-    padding-bottom: 19.2vw;
+  .mv__inner {
+    width: 91.4666666667vw;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .mv__inner {
+    width: 75vw;
+    height: 56.25vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .mv__inner {
+    width: 96vw;
+    height: 72vw;
   }
 }
 
-.mv {
-  height: 936px;
-  text-align: center;
+.mvTitle {
+  font-size: 6.2rem;
+  color: #f1f1f1;
 }
 @media screen and (min-width: 768px) and (max-width: 1280px) {
-  .mv {
-    height: 72.8125vw;
+  .mvTitle {
+    font-size: 4.84375vw;
   }
 }
 @media screen and (max-width: 767px) {
-  .mv {
-    height: auto;
+  .mvTitle {
+    font-size: 8.5333333333vw;
   }
 }
 
