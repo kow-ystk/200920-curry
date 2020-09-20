@@ -1,15 +1,38 @@
 @use '_foundation/mixin' as mixin;
 
 .mv {
-  height: 936px;
-  text-align: center;
+  &__inner {
+    @include mixin.sectionWidth();
 
-  @include mixin.mq(tablet){
-    height: mixin.get_vw(932, 1280);
+    background-image: url(/assets/images/curry_4991.jpg);
+    background-size: cover;
+    width: 960px;
+    height: 720px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @include mixin.mq(tablet) {
+      width: mixin.get_vw(960, 1280);
+      height: mixin.get_vw(720, 1280);
+    }
+
+    @include mixin.mq() {
+      width: mixin.get_vw(360);
+      height: mixin.get_vw(270);
+    }
+  }
+}
+
+.mvTitle {
+  font-size: 6.2rem;
+  color: #f1f1f1;
+
+  @include mixin.mq(tablet) {
+    font-size: mixin.get_vw(62, 1280);
   }
 
-  @include mixin.mq(){
-    height: auto;
+  @include mixin.mq() {
+    font-size: mixin.get_vw(32);
   }
-
 }

@@ -1,6 +1,6 @@
 @use '../_foundation/mixin' as mixin;
 
-.footer {
+.header {
   background: #e46a38;
   color: #333;
 
@@ -24,7 +24,7 @@
   }
 }
 
-.footerLogo {
+.headerLogo {
   font-size: 3.2rem;
   font-weight: bold;
 
@@ -37,7 +37,7 @@
   }
 }
 
-.footerMenu {
+.headerMenu {
   &__list {
     display: flex;
     justify-content: space-between;

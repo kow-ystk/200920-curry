@@ -20,6 +20,9 @@ html(lang='ja')
       include _modules/_head.pug
 
   body
+    block header
+      include _modules/_header.pug
+
     main.main
       div.main__inner
         include _section/_mv.pug
